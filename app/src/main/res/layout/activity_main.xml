@@ -10,22 +10,23 @@
 
     <TextView
         android:id="@+id/daily_goal"
-        android:layout_width="200dp"
-        android:layout_height="28dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="You reached your daily goal!"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.464"
+
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/bar_view" />
 
     <TextView
         android:id="@+id/lesson_complete"
-        android:layout_width="113dp"
-        android:layout_height="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:text="Lesson complete!"
         android:textAlignment="center"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="@+id/daily_goal"
         app:layout_constraintHorizontal_bias="0.563"
         app:layout_constraintStart_toStartOf="@id/daily_goal"
@@ -44,15 +45,15 @@
 
     <TextView
         android:id="@+id/xp"
-        android:layout_width="38dp"
-        android:layout_height="14dp"
-        android:layout_marginStart="4dp"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
         android:layout_marginTop="4dp"
+        android:layout_marginStart="20dp"
         android:text="+10 XP"
         android:textColor="@color/yellow"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="@+id/daily_goal"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@id/daily_goal"
+        app:layout_constraintStart_toEndOf="@+id/lesson_complete"
         app:layout_constraintTop_toBottomOf="@id/daily_goal" />
 
     <TextView
