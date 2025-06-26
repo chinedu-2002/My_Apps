@@ -45,10 +45,10 @@ I have chosen to duplicate the following layout from the DuoLingo Goal Page app:
 ## Video Demo
 
 Here's a video / GIF that demos all of the app's implemented features:
-
+![Activiicties for fun :D](andriod_practice.gif)
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
 
-GIF created with **your chosen GIF tool**
+GIF created with Screen to GIF
 
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
